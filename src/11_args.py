@@ -57,7 +57,7 @@ print(f3(8))     # Should print 9
 # Write a function f4 that accepts an arbitrary number of keyword arguments and
 # prints out the keys and values like so:
 #
-# key: foo, value: bar
+# key: foo, value: bar.txt
 # key: baz, value: 12
 #
 # Google "python keyword arguments".

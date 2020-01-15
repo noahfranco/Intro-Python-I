@@ -19,22 +19,22 @@ and does the following:
    Then exit the program.
 """
 
-import sys
-import calendar
-from datetime import datetime
-
-# Get the arguments 
-print(sys.argv)
-print(calendar.argv)
-print(datetime.now())
-
-# If there are no arguments
-if len(args) == 1:
-
-# If there's 1 arg
-elif len(arg) == 2:
-
-# If
+# import sys
+# import calendar
+# from datetime import datetime
+#
+# # Get the arguments
+# print(sys.argv)
+# print(calendar.argv)
+# print(datetime.now())
+#
+# # If there are no arguments
+# if len(args) == 1:
+#
+# # If there's 1 arg
+# elif len(arg) == 2:
+#
+# # If
 
 
 

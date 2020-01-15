@@ -24,7 +24,7 @@ print(y)
 # Write a list comprehension to produce the uppercase version of all the
 # elements in array a. Hint: "foo".upper() is "FOO".
 
-a = ["foo", "bar", "baz"]
+a = ["foo", "bar.txt", "baz"]
 
 y = [x.upper() for x in a[:]]
 
