@@ -18,6 +18,13 @@ for i in sys.argv:
 
 # Print out the OS platform you're using:
 # YOUR CODE HERE
+osTranslation = {
+    "linux": "Linux",
+    "win32": "Windows",
+    "cygwin": "Windows/Cygwin",
+    "darwin": "Mac OS X"
+}
+print("Your OS: ", osTranslation[sys.platform])
 
 # Print out the version of Python you're using:
 # YOUR CODE HERE
@@ -29,9 +36,10 @@ import os
 
 # Print the current process ID
 # YOUR CODE HERE
-
+print("My current process ID: ", os.getpid())
 # Print the current working directory (cwd):
 # YOUR CODE HERE
-
+print("My current working directory: ", os.getcwd())
 # Print out your machine's login name
 # YOUR CODE HERE
+print("My computer's login: ", os.getlogin())
